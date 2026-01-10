@@ -1,0 +1,766 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C30B6357E316E5343DAA4B02 /* Pods_NetMoyaApp_NetMoyaAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDE0FCCEB317A9016784227D /* Pods_NetMoyaApp_NetMoyaAppUITests.framework */; };
+		F4106DB3168F24BC508ABF7F /* Pods_NetMoyaApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8104067A9724D629D8E30C98 /* Pods_NetMoyaApp.framework */; };
+		FB1E12D63817966081654A50 /* Pods_NetMoyaAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2238F9EDDA3EF611EBA7711 /* Pods_NetMoyaAppTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B417664D2F123ABD001260BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B41766372F123ABC001260BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B417663E2F123ABC001260BD;
+			remoteInfo = NetMoyaApp;
+		};
+		B41766572F123ABD001260BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B41766372F123ABC001260BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B417663E2F123ABC001260BD;
+			remoteInfo = NetMoyaApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C48D9E13645E23C6A82B403 /* Pods-NetMoyaApp-NetMoyaAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetMoyaApp-NetMoyaAppUITests.release.xcconfig"; path = "Target Support Files/Pods-NetMoyaApp-NetMoyaAppUITests/Pods-NetMoyaApp-NetMoyaAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		70D954380C7A66FE8BF7C6CC /* Pods-NetMoyaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetMoyaApp.debug.xcconfig"; path = "Target Support Files/Pods-NetMoyaApp/Pods-NetMoyaApp.debug.xcconfig"; sourceTree = "<group>"; };
+		7D672865A31165D447247CA3 /* Pods-NetMoyaApp-NetMoyaAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetMoyaApp-NetMoyaAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-NetMoyaApp-NetMoyaAppUITests/Pods-NetMoyaApp-NetMoyaAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8104067A9724D629D8E30C98 /* Pods_NetMoyaApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetMoyaApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C905B4DDEC537657ADE4BA9 /* Pods-NetMoyaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetMoyaApp.release.xcconfig"; path = "Target Support Files/Pods-NetMoyaApp/Pods-NetMoyaApp.release.xcconfig"; sourceTree = "<group>"; };
+		9D822ADEF06A100D1EB1C793 /* Pods-NetMoyaAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetMoyaAppTests.debug.xcconfig"; path = "Target Support Files/Pods-NetMoyaAppTests/Pods-NetMoyaAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B417663F2F123ABC001260BD /* NetMoyaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetMoyaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B417664C2F123ABD001260BD /* NetMoyaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetMoyaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B41766562F123ABD001260BD /* NetMoyaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetMoyaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C68CBE43B0A79BC6F663E7BE /* Pods-NetMoyaAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetMoyaAppTests.release.xcconfig"; path = "Target Support Files/Pods-NetMoyaAppTests/Pods-NetMoyaAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		CDE0FCCEB317A9016784227D /* Pods_NetMoyaApp_NetMoyaAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetMoyaApp_NetMoyaAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2238F9EDDA3EF611EBA7711 /* Pods_NetMoyaAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetMoyaAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B41766412F123ABC001260BD /* NetMoyaApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NetMoyaApp;
+			sourceTree = "<group>";
+		};
+		B417664F2F123ABD001260BD /* NetMoyaAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NetMoyaAppTests;
+			sourceTree = "<group>";
+		};
+		B41766592F123ABD001260BD /* NetMoyaAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NetMoyaAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B417663C2F123ABC001260BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4106DB3168F24BC508ABF7F /* Pods_NetMoyaApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B41766492F123ABD001260BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB1E12D63817966081654A50 /* Pods_NetMoyaAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B41766532F123ABD001260BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C30B6357E316E5343DAA4B02 /* Pods_NetMoyaApp_NetMoyaAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A72B36E486E3B03CAA61328 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8104067A9724D629D8E30C98 /* Pods_NetMoyaApp.framework */,
+				CDE0FCCEB317A9016784227D /* Pods_NetMoyaApp_NetMoyaAppUITests.framework */,
+				E2238F9EDDA3EF611EBA7711 /* Pods_NetMoyaAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96DD24E911B63DB18E42ECD5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70D954380C7A66FE8BF7C6CC /* Pods-NetMoyaApp.debug.xcconfig */,
+				9C905B4DDEC537657ADE4BA9 /* Pods-NetMoyaApp.release.xcconfig */,
+				7D672865A31165D447247CA3 /* Pods-NetMoyaApp-NetMoyaAppUITests.debug.xcconfig */,
+				1C48D9E13645E23C6A82B403 /* Pods-NetMoyaApp-NetMoyaAppUITests.release.xcconfig */,
+				9D822ADEF06A100D1EB1C793 /* Pods-NetMoyaAppTests.debug.xcconfig */,
+				C68CBE43B0A79BC6F663E7BE /* Pods-NetMoyaAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B41766362F123ABC001260BD = {
+			isa = PBXGroup;
+			children = (
+				B41766412F123ABC001260BD /* NetMoyaApp */,
+				B417664F2F123ABD001260BD /* NetMoyaAppTests */,
+				B41766592F123ABD001260BD /* NetMoyaAppUITests */,
+				B41766402F123ABC001260BD /* Products */,
+				96DD24E911B63DB18E42ECD5 /* Pods */,
+				1A72B36E486E3B03CAA61328 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B41766402F123ABC001260BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B417663F2F123ABC001260BD /* NetMoyaApp.app */,
+				B417664C2F123ABD001260BD /* NetMoyaAppTests.xctest */,
+				B41766562F123ABD001260BD /* NetMoyaAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B417663E2F123ABC001260BD /* NetMoyaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B41766602F123ABD001260BD /* Build configuration list for PBXNativeTarget "NetMoyaApp" */;
+			buildPhases = (
+				5F02F28898AB1A98370C7C2D /* [CP] Check Pods Manifest.lock */,
+				B417663B2F123ABC001260BD /* Sources */,
+				B417663C2F123ABC001260BD /* Frameworks */,
+				B417663D2F123ABC001260BD /* Resources */,
+				B1A41591916B342EE5DE0AD4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B41766412F123ABC001260BD /* NetMoyaApp */,
+			);
+			name = NetMoyaApp;
+			productName = NetMoyaApp;
+			productReference = B417663F2F123ABC001260BD /* NetMoyaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B417664B2F123ABD001260BD /* NetMoyaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B41766632F123ABD001260BD /* Build configuration list for PBXNativeTarget "NetMoyaAppTests" */;
+			buildPhases = (
+				C355ADC35BF6DB4BA31F86BF /* [CP] Check Pods Manifest.lock */,
+				B41766482F123ABD001260BD /* Sources */,
+				B41766492F123ABD001260BD /* Frameworks */,
+				B417664A2F123ABD001260BD /* Resources */,
+				6ED728C11C9ED636E29AC4CE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B417664E2F123ABD001260BD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B417664F2F123ABD001260BD /* NetMoyaAppTests */,
+			);
+			name = NetMoyaAppTests;
+			productName = NetMoyaAppTests;
+			productReference = B417664C2F123ABD001260BD /* NetMoyaAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B41766552F123ABD001260BD /* NetMoyaAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B41766662F123ABD001260BD /* Build configuration list for PBXNativeTarget "NetMoyaAppUITests" */;
+			buildPhases = (
+				BFEE872F23A109E91D550A5B /* [CP] Check Pods Manifest.lock */,
+				B41766522F123ABD001260BD /* Sources */,
+				B41766532F123ABD001260BD /* Frameworks */,
+				B41766542F123ABD001260BD /* Resources */,
+				34B8BE085FB7CDF6B90F9EB0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B41766582F123ABD001260BD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B41766592F123ABD001260BD /* NetMoyaAppUITests */,
+			);
+			name = NetMoyaAppUITests;
+			productName = NetMoyaAppUITests;
+			productReference = B41766562F123ABD001260BD /* NetMoyaAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B41766372F123ABC001260BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					B417663E2F123ABC001260BD = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					B417664B2F123ABD001260BD = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = B417663E2F123ABC001260BD;
+					};
+					B41766552F123ABD001260BD = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = B417663E2F123ABC001260BD;
+					};
+				};
+			};
+			buildConfigurationList = B417663A2F123ABC001260BD /* Build configuration list for PBXProject "NetMoyaApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B41766362F123ABC001260BD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B41766402F123ABC001260BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B417663E2F123ABC001260BD /* NetMoyaApp */,
+				B417664B2F123ABD001260BD /* NetMoyaAppTests */,
+				B41766552F123ABD001260BD /* NetMoyaAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B417663D2F123ABC001260BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B417664A2F123ABD001260BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B41766542F123ABD001260BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34B8BE085FB7CDF6B90F9EB0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NetMoyaApp-NetMoyaAppUITests/Pods-NetMoyaApp-NetMoyaAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NetMoyaApp-NetMoyaAppUITests/Pods-NetMoyaApp-NetMoyaAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NetMoyaApp-NetMoyaAppUITests/Pods-NetMoyaApp-NetMoyaAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F02F28898AB1A98370C7C2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NetMoyaApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6ED728C11C9ED636E29AC4CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NetMoyaAppTests/Pods-NetMoyaAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NetMoyaAppTests/Pods-NetMoyaAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NetMoyaAppTests/Pods-NetMoyaAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1A41591916B342EE5DE0AD4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NetMoyaApp/Pods-NetMoyaApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NetMoyaApp/Pods-NetMoyaApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NetMoyaApp/Pods-NetMoyaApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFEE872F23A109E91D550A5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NetMoyaApp-NetMoyaAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C355ADC35BF6DB4BA31F86BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NetMoyaAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B417663B2F123ABC001260BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B41766482F123ABD001260BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B41766522F123ABD001260BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B417664E2F123ABD001260BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B417663E2F123ABC001260BD /* NetMoyaApp */;
+			targetProxy = B417664D2F123ABD001260BD /* PBXContainerItemProxy */;
+		};
+		B41766582F123ABD001260BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B417663E2F123ABC001260BD /* NetMoyaApp */;
+			targetProxy = B41766572F123ABD001260BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B417665E2F123ABD001260BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = PUB225UV6R;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B417665F2F123ABD001260BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = PUB225UV6R;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B41766612F123ABD001260BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70D954380C7A66FE8BF7C6CC /* Pods-NetMoyaApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PUB225UV6R;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ai.liveactn.NetMoyaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B41766622F123ABD001260BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C905B4DDEC537657ADE4BA9 /* Pods-NetMoyaApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PUB225UV6R;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ai.liveactn.NetMoyaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B41766642F123ABD001260BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D822ADEF06A100D1EB1C793 /* Pods-NetMoyaAppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PUB225UV6R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ai.liveactn.NetMoyaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetMoyaApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NetMoyaApp";
+			};
+			name = Debug;
+		};
+		B41766652F123ABD001260BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C68CBE43B0A79BC6F663E7BE /* Pods-NetMoyaAppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PUB225UV6R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ai.liveactn.NetMoyaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetMoyaApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NetMoyaApp";
+			};
+			name = Release;
+		};
+		B41766672F123ABD001260BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D672865A31165D447247CA3 /* Pods-NetMoyaApp-NetMoyaAppUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PUB225UV6R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ai.liveactn.NetMoyaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NetMoyaApp;
+			};
+			name = Debug;
+		};
+		B41766682F123ABD001260BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C48D9E13645E23C6A82B403 /* Pods-NetMoyaApp-NetMoyaAppUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PUB225UV6R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ai.liveactn.NetMoyaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NetMoyaApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B417663A2F123ABC001260BD /* Build configuration list for PBXProject "NetMoyaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B417665E2F123ABD001260BD /* Debug */,
+				B417665F2F123ABD001260BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B41766602F123ABD001260BD /* Build configuration list for PBXNativeTarget "NetMoyaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B41766612F123ABD001260BD /* Debug */,
+				B41766622F123ABD001260BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B41766632F123ABD001260BD /* Build configuration list for PBXNativeTarget "NetMoyaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B41766642F123ABD001260BD /* Debug */,
+				B41766652F123ABD001260BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B41766662F123ABD001260BD /* Build configuration list for PBXNativeTarget "NetMoyaAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B41766672F123ABD001260BD /* Debug */,
+				B41766682F123ABD001260BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B41766372F123ABC001260BD /* Project object */;
+}

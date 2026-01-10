@@ -1,0 +1,6 @@
+framework module Pods_NetMoyaApp {
+  umbrella header "Pods-NetMoyaApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
