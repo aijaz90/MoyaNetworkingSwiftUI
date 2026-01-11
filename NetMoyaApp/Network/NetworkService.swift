@@ -67,22 +67,31 @@ public protocol NetworkServiceProtocol {
     func requestEmpty(_ target: TargetType) -> AnyPublisher<Void, NetworkError>
 }
 
+
+// NetworkService.swift (Updated with Enhanced Logging)
+import Foundation
+import Combine
+import Moya
+import Alamofire
+
 public final class NetworkService: NetworkServiceProtocol {
     
     private let provider: MoyaProvider<MultiTarget>
     private let networkMonitor: NetworkMonitorProtocol
+    private let logger: NetworkLoggerProtocol
     
     public init(
         provider: MoyaProvider<MultiTarget>? = nil,
-        networkMonitor: NetworkMonitorProtocol = NetworkMonitor.shared
+        networkMonitor: NetworkMonitorProtocol = NetworkMonitor.shared,
+        logger: NetworkLoggerProtocol = NetworkLogger()
     ) {
         self.networkMonitor = networkMonitor
+        self.logger = logger
         
+        // Create plugins
         let plugins: [PluginType] = [
-            NetworkLoggerPlugin(configuration: .init(
-                formatter: .init(),
-                logOptions: .verbose
-            ))
+            NetworkLoggerPlugin1(logger: logger),
+            NetworkStatusPlugin(networkMonitor: networkMonitor, logger: logger)
         ]
         
         let session: Session = {
@@ -121,8 +130,28 @@ public final class NetworkService: NetworkServiceProtocol {
         )
     }
     
+    // MARK: - Network Status Plugin
+    
+    private class NetworkStatusPlugin: PluginType {
+        private let networkMonitor: NetworkMonitorProtocol
+        private let logger: NetworkLoggerProtocol
+        
+        init(networkMonitor: NetworkMonitorProtocol, logger: NetworkLoggerProtocol) {
+            self.networkMonitor = networkMonitor
+            self.logger = logger
+        }
+        
+        func willSend(_ request: RequestType, target: TargetType) {
+            // Log network status before each request
+            logger.logNetworkStatus(isConnected: networkMonitor.isConnected)
+        }
+    }
+    
+    // MARK: - Request Methods
+    
     public func request<T: Decodable>(_ target: TargetType) -> AnyPublisher<T, NetworkError> {
         guard networkMonitor.isConnected else {
+            logger.logNetworkStatus(isConnected: false)
             return Fail(error: NetworkError.noInternetConnection)
                 .eraseToAnyPublisher()
         }
@@ -150,6 +179,8 @@ public final class NetworkService: NetworkServiceProtocol {
                     decoder.dateDecodingStrategy = .iso8601
                     return try decoder.decode(T.self, from: response.data)
                 } catch {
+                    // Log decoding error
+                    self.logger.logError(error, target: target)
                     throw NetworkError.decodingError(error)
                 }
             }
@@ -164,6 +195,9 @@ public final class NetworkService: NetworkServiceProtocol {
             }
             .eraseToAnyPublisher()
     }
+    
+    // ... rest of your NetworkService implementation
+//}
     
     public func requestAPIResponse<T: Decodable>(_ target: TargetType) -> AnyPublisher<APIResponse<T>, NetworkError> {
         guard networkMonitor.isConnected else {

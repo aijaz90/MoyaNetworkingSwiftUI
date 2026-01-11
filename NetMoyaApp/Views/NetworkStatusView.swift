@@ -217,3 +217,59 @@ import Swinject
 //    }
 //}
 //#endif
+
+import SwiftUI
+import Combine
+
+struct NetworkStatusView: View {
+    @State private var showBanner: Bool = false
+    @State private var message: String = ""
+    @State private var bgColor: Color = .red
+    
+    /// Track last connectivity to show "back online" only once
+    @State private var lastConnectedState: Bool? = nil
+
+    var body: some View {
+        VStack {
+            if showBanner {
+                Text(message)
+                    .font(.subheadline.bold())
+                    .foregroundColor(.white)
+                    .padding()
+                    .frame(maxWidth: .infinity, maxHeight: 20)
+                    .background(bgColor)
+                    .transition(.move(edge: .top).combined(with: .opacity))
+                    .zIndex(1)
+            }
+            Spacer()
+        }
+        .animation(.easeInOut(duration: 0.3), value: showBanner)
+        .onReceive(NetworkMonitor.shared.connectionPublisher) { connected in
+            withAnimation {
+                // Show "no internet" immediately if disconnected
+                if !connected {
+                    message = "❌ No internet connection"
+                    bgColor = .red
+                    showBanner = true
+                }
+                
+                // Show "back online" only if last state was disconnected
+                if connected && lastConnectedState == false {
+                    message = "✅ You are back online"
+                    bgColor = .green
+                    showBanner = true
+                    
+                    // Hide after 3 seconds
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+                        withAnimation {
+                            showBanner = false
+                        }
+                    }
+                }
+                
+                // Update last state
+                lastConnectedState = connected
+            }
+        }
+    }
+}

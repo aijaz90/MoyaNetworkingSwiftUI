@@ -23,10 +23,14 @@ struct NetMoyaAppApp: App {
         WindowGroup {
             ZStack(alignment: .top) {
                 ContentView()
+                NetworkStatusView()
               //  NetworkStatusView(viewModel: networkStatusViewModel)
             } .onAppear {
                 // Initial connectivity check
               // networkStatusViewModel.performConnectionCheck()
+            }.onReceive(NetworkMonitor.shared.connectionPublisher) { connected in
+                print("Connected:", connected)
+              
             }
         }
     }
